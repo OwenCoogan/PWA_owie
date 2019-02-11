@@ -84,7 +84,7 @@ Requête media
             
             text-align: center;
             padding:2rem;          
-            margin: .5rem auto;
+            margin-bottom: .5rem;
             box-shadow: 2px 2px 6px rgba(0, 0, 0, .5);
 
         }

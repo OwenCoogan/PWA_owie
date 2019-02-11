@@ -1,25 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
-    /* 
-    Déclaration
-    */
+    
         const bodyTag = document.querySelector('body');
         const userToken = window.localStorage.getItem('token');
         const apiKey = '558b63db8d7d46e8934c954fbd98bd3f';
-    //
-
-    /* 
-    Fonction
-    */
+   
         const displayApp = async (page = 'login') => {
-            // Faire un fetch sur un fichier HTML
+            
             const response = await fetch(`./components/${page}.html`);
 
-            // Vérifier la requête
+           
             if( response.ok ){
-                // Convertir la réponse en texte (car nous attendons du HTML)
+               
                 const convertedResponse = await response.text();
 
-                // Ajouter les balises dans le DOM
+                
                 bodyTag.innerHTML = convertedResponse;
 
                 // Vérifier le nom de la page à afficher
@@ -64,19 +58,19 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         };
 
-        // Fonction pour cfaire une requête asynchrone
+        // Fonction pour faire une requête asynchrone
         const asyncFetch = async ( path ) => {
             // Faire une requête fetch()
             const response = await fetch(`https://newsapi.org/v2/${path}apiKey=${apiKey}`);
 
             // Vérifier le statut de la requête
             if( response.ok ){
-                // Convertire la réponse en JSON
+                // Convertir la réponse en JSON
                 const jsonResponse = await response.json();
 
                 // Vérifier le path
                 if( path === 'sources?' ){
-                    displaySources(jsonResponse, 'the-next-web')
+                    displaySources(jsonResponse, 'bbc-sport')
                 }
                 else{
                     displayArticles(jsonResponse)
@@ -98,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     `;
                 }
                 else{
-                    // Ajouter une option dans le select
+                    
                     newsSources.innerHTML += `
                         <option value="${item.id}">${item.name}</option>
                     `;
@@ -122,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Fonction pour afficher les articles dans le DOM
         const displayArticles = (data) => {
-            // Vider la liste des articles
+            
             articleList.innerHTML = '';
             
             // Boucle sur la collectionn de données
