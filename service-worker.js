@@ -3,7 +3,7 @@ const appShell = [
     './css/main.css',
     './js/main.js',
     './img/jurrasic-error.png',
-    './fallback/no-news.json'
+    './data/no-news.json'
 ];
 //
 
