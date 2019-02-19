@@ -43,7 +43,7 @@ self.addEventListener( 'fetch', (event) => {
 /*
 Définition des stratégies
 */
-const caheFirst = async (req) => {
+const cacheFirst = async (req) => {
     // Vérifier la présence de données dans le cache
     const cachedResponse = await caches.match(req);
 
