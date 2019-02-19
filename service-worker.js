@@ -58,8 +58,8 @@ const networkFirst = async (req) => {
     // Récupération des données depuis une API
     try {
         // Ajout des données dans le cache dynamique en mode connecté
-        const response = await fetch(req);
-        dynamicCache.put( req, response.clone() );
+        const response = await fetch(request);
+        dynamicCache.put( request, response.clone() );
 
         // Renvoyer le réponse
         return response;
