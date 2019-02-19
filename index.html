@@ -6,16 +6,16 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="description" content="New App, une application Web pour rester informé">
         <meta name="keywords" content="PWA, News, WebApp">
-        <title>Owen's news app</title>
+        <title>New app</title>
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"> 
         <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css"> 
         <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
         <link rel="stylesheet" href="./css/main.css">
 
-        
+        <!-- Ajout du manifest (PWA) -->
         <link rel="manifest" href="manifest.json">
 
-        
+        <!-- Définir le nom de l'application (cf. manifest.json) -->
         <meta name="application-name" content="New app : resté informé tout le temps">
 
         <!-- Définir les capacités de la PWA -->
@@ -37,10 +37,10 @@
         <link rel="apple-touch-icon" sizes="128x128" href="./img/chrome/chrome-installprocess-128-128.png">
         <link rel="apple-touch-icon-precomposed" sizes="128x128" href="./img/chrome/chrome-installprocess-128-128.png">
 
-        <!-- Installer le service-worker -->
+        <!-- Instancier le service-worker -->
         <script>
             
-            // Vérifier que le navigateur accepte les service-workers
+            // Vérifier que le navigateur accepte les service-worker
             if( 'serviceWorker' in navigator ){
                 try{
                     navigator.serviceWorker.register('service-worker.js');
