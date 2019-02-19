@@ -31,7 +31,7 @@ self.addEventListener( 'fetch', (event) => {
     // Gestion des stratégies de cache
     if( url.origin === location.origin ){
         // Récuperer les données depuis le cache
-        event.respondWith( caheFirst(request) )
+        event.respondWith( cacheFirst(request) )
     }
     else{
         // Récupérer les données depuis une API
