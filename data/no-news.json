@@ -1,9 +1,8 @@
-{"articles" :  [
-
 {
-
-    "description": "To Display this list need an active Internet Connexion.",
-    "urlToImage": "./img/jurassic-error.png"
+    "articles": [
+        {
+            "description": "To display this list you need an active Internet connexion.",
+            "urlToImage": "img/yhst-80707182936312_2271_13945863.jpg"
+        }
+    ]
 }
-
-]}
