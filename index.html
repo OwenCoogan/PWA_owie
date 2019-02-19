@@ -4,13 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="description" content="Une application Web pour rester informer" />
-        <title>Owen's News app</title>
+        <meta name="description" content="New App, une application Web pour rester informé">
+        <meta name="keywords" content="PWA, News, WebApp">
+        <title>New app</title>
         <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"> 
         <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css"> 
         <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
         <link rel="stylesheet" href="./css/main.css">
 
+        <!-- Ajout du manifest (PWA) -->
         <link rel="manifest" href="manifest.json">
 
         <!-- Définir le nom de l'application (cf. manifest.json) -->
@@ -35,13 +37,7 @@
         <link rel="apple-touch-icon" sizes="128x128" href="./img/chrome/chrome-installprocess-128-128.png">
         <link rel="apple-touch-icon-precomposed" sizes="128x128" href="./img/chrome/chrome-installprocess-128-128.png">
 
-
-
-
-
-
-
-
+        <!-- Instancier le service-worker -->
         <script>
             
             // Vérifier que le navigateur accepte les service-worker
@@ -55,9 +51,7 @@
                 };
             };
         </script>
-
-
-    </head>
+    </head> 
     <body>
        
         <script src="./js/main.js"></script>
