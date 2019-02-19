@@ -43,7 +43,7 @@ self.addEventListener( 'fetch', (event) => {
 /*
 Définition des stratégies
 */
-const cacheFirst = async (req) => {
+const caheFirst = async (req) => {
     // Vérifier la présence de données dans le cache
     const cachedResponse = await caches.match(req);
 
@@ -59,7 +59,7 @@ const networkFirst = async (req) => {
     try {
         // Ajout des données dans le cache dynamique en mode connecté
         const response = await fetch(req);
-        dynamicCache.put( request, response.clone() );
+        dynamicCache.put( req, response.clone() );
 
         // Renvoyer le réponse
         return response;
