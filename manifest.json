@@ -7,7 +7,7 @@
     "start_url": "/PWA_owie/?homescreen=1",
     "short_name": "Owen's News app",
     "theme_color": "transparent",
-    "description": "Une application Web pour rester informer",
+    "description": "Une application Web pour rester informés",
     "orientation": "any",
     "background_color": "transparent",
     "related_applications": [],
