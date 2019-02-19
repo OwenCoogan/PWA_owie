@@ -1,0 +1,112 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Owen's News app",
+    "scope": "https://owie05.github.io/PWA_owie/",
+    "display": "standalone",
+    "start_url": "/PWA_owie/?homescreen=1",
+    "short_name": "Owen's News app",
+    "theme_color": "transparent",
+    "description": "Une application Web pour rester informer",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/8bb42fc1-36f8-213a-5ce7-1c9f56f687bc.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/b83a59f7-b1cf-d93f-8cf2-92be9d118eef.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d0467aca-35e8-b624-da44-fe5b26a3bdf2.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/cdfad1d1-4432-9cf1-18c2-a31c808a104f.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/da557e49-18a2-d02a-8a7e-579c14761760.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8ae03361-75e4-05a8-230c-7aca8a656666.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/c142190d-d5f9-18b4-e3b5-8dbbd24a0758.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/9d73f921-3c42-8973-858e-a3dee7c06e59.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/9c0b222b-410b-dd6b-ba03-80fb7a05cac4.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/2838da09-76b3-33e9-e510-7786c2b82aae.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/c7cf2fd5-fef8-753f-c9fa-430b6a8d7f86.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/6769b744-36c6-7d0d-2316-ca2de04d4e34.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/73f3b26b-9c2e-1d2f-f168-7445836ecd49.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/901f7dc6-dce7-c4eb-3a34-74cbea50382f.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/2e25d47c-371b-f0c2-4dd5-21f3d99b8cb3.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/eeb2304f-cb6d-b153-ff58-14b0c9e73ca7.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/1fa0f2da-40d4-fe6b-f03c-5b90ea5e4fbd.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/48d10391-e98d-e01c-65a2-ba5c8441f5c1.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/1d9e8708-48f7-4eb8-1f7d-b56568dfe290.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ]
+}

@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <h2>${item.title}</h2>
                         <img src="${ item.urlToImage || 'http://lorempixel.com/200/200' }" alt="${item.title}">
                         <p>${item.description}</p>
-                        <a href="${item.url}">See on Website</a>
+                        <a href="${item.url}" target="_blank">See on Website</a>
                     </article>
                 `
             }

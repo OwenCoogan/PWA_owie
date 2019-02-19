@@ -10,6 +10,21 @@
         <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css"> 
         <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
         <link rel="stylesheet" href="./css/main.css">
+        <script>
+            
+            // Vérifier que le navigateur accepte les service-worker
+            if( 'serviceWorker' in navigator ){
+                try{
+                    navigator.serviceWorker.register('service-worker.js');
+                    console.log('Service worker registered');
+                }
+                catch(err){
+                    console.log('Service worker not registered', err);
+                };
+            };
+        </script>
+
+
     </head>
     <body>
        
